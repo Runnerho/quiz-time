@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+*,*::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: #000;
+}
+.App{
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 100px 0;
+}
+h3{
+  margin: 20px 0;
+}
+button{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+}
+button:hover{
+  cursor: pointer;
+}
+ul li button{
+  width: 30%;
+  height: 30px;
+  margin: 3px auto;
+}
+.next-button,.start-button{
+  padding: 5px;
+  margin: 20px 0;
+}
+.correct{
+  background-color: #0f0;
+  transform: translateX(25px);
+  transition: 0.5s;
+}
+.notcorrect{
+  background-color: #f00;
+}
+.time-score{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+}
